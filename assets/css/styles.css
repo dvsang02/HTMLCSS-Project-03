@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -36,6 +37,11 @@ a {
 .heading.lv1 {
     font-size: 6.2rem;
     line-height: 1.16;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
 }
 
 .btn {
@@ -111,7 +117,9 @@ a {
 }
 
 .header .action-btn:hover {
-    opacity: 0.8;
+    background: var(--primary-color);
+    color: #FFFFFF;
+    transition: all ease 0.5s;
 }
 
 /* Hero */
@@ -125,6 +133,8 @@ a {
     align-items: center;
 }
 
+
+/* hero left */
 
 .hero .content-block .desc-top {
     font-size: 1.4rem;
@@ -162,6 +172,8 @@ a {
     box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
     border-radius: 50%;
 }
+
+/* hero right */
 
 .hero .media-block {
     position: relative;
@@ -297,4 +309,58 @@ a {
     color: #FFFFFF;
 }
 
+/* Features */
+
+.features  {
+    padding-top: 130px;
+}
+
+.features .features-top {
+    width: 50%;
+}
+
+.features .features-top .note {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767E7E;
+    margin-bottom: 18px;
+}
+
+.features .features-top .desc {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
+}
+
+
+.features .features-bottom {
+    display: flex;
+    gap: 209px;
+    margin-top: 80px;
+}
+
+.features .features-bottom .item {
+    width: 224px;
+}
+
+.features .features-bottom .item:nth-child(1) {
+    width: 168px;
+}
+
+.features-bottom .title a{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2.0rem;
+    line-height: 1.5;
+    color: #0D1111;
+    margin-top: 26px;
+}
+
+.features .features-bottom .desc {
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9DA6A5;
+    margin-top: 16px;
+}
 
