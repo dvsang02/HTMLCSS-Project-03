@@ -653,3 +653,82 @@ a {
     bottom: 29px;
 }
 
+/* CallToAction */
+.cta-block {
+    padding: 76px 0 88px;
+    background: #DEF6F5;
+}
+
+.cta-block .body {
+    display: flex;
+    align-items: center;
+}
+
+.cta-block .btn-cta {
+    margin-left: 410px;
+}
+
+.cta-block .desc {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
+    margin-top: 18px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 135px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #2E2E2E;
+    margin-bottom: 26px;
+}
+
+.footer .column:last-child .title {
+    margin-bottom: 18px;
+}
+
+.footer .column:last-child li {
+    display: flex;
+    align-items: center;
+}
+
+.footer .column:last-child .icon {
+    margin-right: 13px;
+}
+
+.footer .list li {
+    margin-bottom: 20px;
+}
+
+.footer .list a {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #535353;
+}
+
+
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .copyright {
+    padding: 80px 0 50px;
+}
+
+.footer .copyright p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #B0B5B4;
+    text-align: center;
+}
