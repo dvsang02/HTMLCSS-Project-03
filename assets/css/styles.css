@@ -519,3 +519,137 @@ a {
     color: #767E7E;
 }
 
+/* Feedback */
+.feedback {
+    padding: 130px 0;
+}
+
+.feedback .body {
+    display: flex;
+    align-items: center;
+}
+
+.feedback .feedback-member-list {
+    width: 35.8%;
+    margin-right: 72px;
+}
+
+.feedback .feedback-member-list .item {
+    width: 419px;
+}
+
+.feedback-member-list blockquote {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5D6564;
+    margin-top: 27px;
+}
+
+.feedback-member-list .name-member {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #767E7E;
+    margin-top: 33px;
+}
+
+.feedback-member-list .name-member::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    margin-right: 5px;
+}
+
+.feedback-member-list .name-member strong {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #070707;
+    margin-right: 5px;
+}
+
+.feedback .avatar-members {
+    width: 65%;
+    height: 481px;
+}
+
+.feedback .controls {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.feedback .control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feedback .avatar-members {
+    position: relative;
+}
+
+.feedback .avatar.biggest {
+    position: absolute;
+    top: 107px;
+    left: 273px;
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .avatar.big {
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .avatar.small {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .avatar:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 144px;
+}
+
+.feedback .avatar:nth-child(3) {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+.feedback .avatar:nth-child(4) {
+    position: absolute;
+    top: 258px;
+    left: 0;
+}
+
+.feedback .avatar:nth-child(5) {
+    position: absolute;
+    left: 212px;
+    bottom: 0;
+}
+
+.feedback .avatar:nth-child(6) {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+}
+
