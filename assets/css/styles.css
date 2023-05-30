@@ -367,7 +367,7 @@ a {
 
 /* Courses */
 .courses {
-    padding-top: 130px;
+    padding: 130px 0 254px 0;
 }
 
 .courses .note {
@@ -490,5 +490,32 @@ a {
     background: var(--primary-color);
     border-radius: 50%;
     margin-right: 10px;
+}
+
+/* Quantity */
+
+.quantity {
+    padding: 135px 0;
+}
+
+.quantity .qty-list {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+}
+
+.quantity .item .number {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    color: #0D1111;
+    margin-bottom: 11px;
+}
+
+.quantity .item .desc {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
 }
 
